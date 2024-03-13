@@ -22,9 +22,9 @@ def bot_working():
     except:
         a, b = pyscreeze.locateCenterOnScreen('./img/end.png')
 
-    point = ((a - x) / 10)
+    interval = ((a - x) / 10)
 
-    bot.moveTo(point * (case - 1) + x, b, duration=0.5)
+    bot.moveTo(interval * (case - 1) + x, b, duration=0.5)
     bot.click()
 
 
