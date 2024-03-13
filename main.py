@@ -2,11 +2,6 @@ import pyautogui as bot
 import time
 import pyscreeze
 
-# explorer "https://youtube.com"
-# im1 = pyscreeze.screenshot()
-# im2 = pyscreeze.screenshot('my_screenshot.png')
-
-
 def bot_working():
     # открываем браузер по умолчанию
     time.sleep(0.5)
