@@ -2,6 +2,9 @@ import pyautogui as bot
 import time
 import pyscreeze
 
+# ВАЖНО! В случае наличия двух и более мониторов, 
+# работает только если браузер открывается на основном мониторе
+
 def bot_working():
     # открываем браузер по умолчанию
     time.sleep(0.5)
