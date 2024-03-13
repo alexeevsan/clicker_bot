@@ -6,10 +6,12 @@ import pyscreeze
 # im1 = pyscreeze.screenshot()
 # im2 = pyscreeze.screenshot('my_screenshot.png')
 
+
 def bot_working():
     # открываем браузер по умолчанию
     time.sleep(0.5)
-    bot.hotkey('win', 'r')
+    bot.hotkey('win', 'r', interval=0.25)
+
     bot.typewrite('explorer https://kliker-test.ru/')
     bot.press('enter')
     time.sleep(3)
